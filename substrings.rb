@@ -1,5 +1,3 @@
-require 'pry-byebug'
-
 def substrings(word, dictionary)
    dictionary.reduce(Hash.new(0)) do |total, dic|
     word.split.each do |word_arr|
